@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemple de Page Web</title>
+</head>
+<body>
+    <!-- Barre de navigation -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Section Home -->
+    <section id="home">
+        <h1>Bienvenue sur ma page web</h1>
+        <p>Voici un exemple de page web utilisant des balises sémantiques et des formulaires HTML.</p>
+    </section>
+
+    <!-- Section About -->
+    <section id="about">
+        <h2>About</h2>
+        <p>Je suis étudiant développeur web.</p>
+    </section>
+
+    <!-- Section Work -->
+    <section id="work">
+        <h2>Work</h2>
+        <ul>
+            <li>Projet html</li>
+            <li>Projet Javascript</li>
+            <li>Projet CSS</li>
+        </ul>
+    </section>
+
+    <!-- Section Resume -->
+    <section id="resume">
+        <h2>Resume</h2>
+        <table>
+            <tr>
+                <th>Année</th>
+                <th>Expérience</th>
+            </tr>
+            <tr>
+                <td>2024</td>
+                <td>Etudiant Développeur Web GOMYCODE</td>
+            </tr>
+            <tr>
+                <td>2025</td>
+                <td>Développeur Web chez GOMYCODE</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="/submit" method="post">
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom"><br><br>
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="message">Message :</label>
+            <textarea id="message" name="message"></textarea><br><br>
+            <input type="submit" value="Envoyer">
+        </form>
+    </section>
+
+    <!-- Section Vidéo -->
+    <section id="video">
+        <h2>Vidéo</h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/olJOZp57FWM?si=SluAtOt3rK5ChwcO&amp;start=25" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+</section>
+            Votre navigateur ne supporte pas l'élément vidéo.
+        </video>
+    </section>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>&copy; 2024 Mon Site Web</p>
+    </footer>
+</body>
+</html>
